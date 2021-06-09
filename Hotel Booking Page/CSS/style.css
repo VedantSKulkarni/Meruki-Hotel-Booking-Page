@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+:root {
+    --primary-color: #3881ff;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+}
+
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #000;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2 {
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar .flex nav ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+/* Showcase */
+.showcase {
+    background-color: var(--primary-color);
+    color: #000;
+    padding: 6rem 0 3rem 0;
+}
+
+.showcase .showcase-text {}
+
+.showcase img {
+    float: right;
+    justify-self: flex-end;
+    width: 100%;
+    box-shadow: 3px solid black;
+}
+
+/* Booking Stats */
+.stats {
+    padding-top: 70px;
+}
+
+.stats-heading {
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.stats h3 {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.stats h4 {
+    font-size: 2rem;
+    color: #000;
+}
+
+.stats .grid i {
+    font-size: 5rem;
+    color: #000;
+}
+
+.stats .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
